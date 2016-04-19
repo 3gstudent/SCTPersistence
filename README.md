@@ -46,14 +46,8 @@ or
 
 
 `var x = new ActiveXObject("Component.Backdoor");
-
-
 x.Main();
-
-
 var x = new ActiveXObject("Component.Backdoor");
-
-
 x.Exec();`
 
 
