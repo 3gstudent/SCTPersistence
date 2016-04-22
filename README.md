@@ -120,7 +120,7 @@ When we create a Windows shortcut with personnalized icon to start JSRAT,the cod
 But we can use regsvr32.exe to run .sct file with very few letters.
 
 
-
+What's more, the third-party link shortener Twitter can save more space.
 
 
 
